@@ -1,0 +1,4 @@
+RewriteEngine on 
+#RewriteBase /restobar
+RewriteCond $1 !^(index.php|css|js|images|robots.txt|assets|productos|sucursales) 
+RewriteRule ^(.*)$ index.php/$1 [L]
