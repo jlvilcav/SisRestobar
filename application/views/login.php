@@ -57,7 +57,7 @@
                 <div class="login-logo">
                     <!-- <i class="glyphicon glyphicon-apple"></i> --> &nbsp;<a href="#"><b>Sist</b>Restobar</a>
                     <div style="color: #888; font-size: 0.5em;">
-                        <small>Bienvenido a <b>Sist</b>Restobar <?php echo $this->config->item('version_sistema'); ?></small>                        
+                        <small>Bienvenidossss a <b>Sist</b>Restobar <?php echo $this->config->item('version_sistema'); ?></small>                        
                     </div>
                 </div><!-- /.login-logo -->
                 <div class="login-box-body">
