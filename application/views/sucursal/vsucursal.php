@@ -106,12 +106,16 @@
           cboDepartamento : dep
         }, function(data) {
           $("#cboProvincia").html(data);
+					// Seleccionar automáticamente la primera opción después de cargarlas
+					$("#cboProvincia option:first").prop("selected", true);
+					// Disparar el evento change del combo de provincias para cargar los distritos relacionados
+					$("#cboProvincia").change();
         });
       });
     })
 
 
-    $('#cboProvincia').change(function(){
+    $('#cboProvincia').change(function(){//debugger;
       $('#cboProvincia option:selected').each(function(){
         dep = $('#cboDepartamento').val();
         prov = $('#cboProvincia').val();

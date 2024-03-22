@@ -10,7 +10,7 @@
                   <div class="box-body">
 
                     <div class="form-group">
-                      <label for="txtInsumo" class="col-sm-2 control-label">Insumo</label>
+                      <label for="txtInsumo" class="col-sm-2 control-label">Nombre del insumo</label>
                       <div class="col-sm-6">
                         <input type="text" name="txtInsumo" class="form-control" id="txtInsumo" placeholder="Escriba el nombre" required>
                       </div>
@@ -27,7 +27,7 @@
                              }
                           ?>
                         </select>
-                        </div>
+                        </div> <div>+</div>
                     </div>
 
                     <!-- select -->

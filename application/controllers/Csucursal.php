@@ -72,6 +72,12 @@ class Csucursal extends CI_Controller
 			$this->load->view('layout/header');
 			$this->load->view("sucursal/vsucursal",$data);
 			$this->load->view('layout/footer');
+
+			echo "<script>
+                setTimeout(function(){
+                    window.location.href = '" . site_url('/csucursal') . "';
+                }, 1000);
+              </script>";
 		}else{
 			$data['regSucursalState'] = '0';
 			$this->load->view("sucursal/vsucursal",$data);

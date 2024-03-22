@@ -138,7 +138,7 @@
                         <input type="hidden" id="idInsumo" value="">
                     </div>
                     <div class="text-right" style="margin-bottom: 10px;">
-                        <button id="addInsumo" class="btn btn-primary" type="button">Agregar</button>
+                        <button id="addInsumo" class="btn btn-primary" type="button">Guardar</button>
                         <button id="cancelInsumo" class="btn btn-danger" type="button">cancelar</button>
                     </div>
 
@@ -155,7 +155,7 @@
                       <tbody></tbody>
                     </table>
                     <div class="text-right" style="padding: 10px;">
-                        <button id="resetCart" type="button" class="btn btn-danger">Limpiar Compra</button>
+                        <button id="resetCart" type="button" class="btn btn-danger">Limpiar insumos</button>
                     </div>
                 </div>
             </div>

@@ -27,7 +27,7 @@
                     <div class="progress-bar" style="width: 70%"></div>
                   </div>
                   <span class="progress-description">
-                    Total de compras desde dd/mm/yyyy
+                    Total de compras
                   </span>
                 </div>
               </div>
@@ -49,7 +49,7 @@
                     <div class="progress-bar" style="width: 70%"></div>
                   </div>
                   <span class="progress-description">
-                    Importe egreso por compras desde dd/mm/yyyy
+                    Importe egreso por compras
                   </span>
                 </div>
               </div>
